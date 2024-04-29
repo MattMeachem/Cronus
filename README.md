@@ -1,2 +1,2 @@
 # Cronus
-Auto archive/splitter using 7zip
+Auto archive/splitter 
