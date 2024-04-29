@@ -56,7 +56,7 @@ $dropdownChunkSize = New-Object System.Windows.Forms.ComboBox
 $dropdownChunkSize.DropDownStyle = [System.Windows.Forms.ComboBoxStyle]::DropDownList
 $dropdownChunkSize.Size = New-Object System.Drawing.Size(150, 20)
 $dropdownChunkSize.Location = New-Object System.Drawing.Point(120, 80)
-$dropdownChunkSize.Items.AddRange(@("20M", "100M", "1000M", "650M-CD", "700M-CD", "4092M-FAT", "4480M-DVD", "8128M-DVD DL", "23040M-BD"))
+$dropdownChunkSize.Items.AddRange(@("20M", "100M", "1000M", "650M", "700M", "4092M", "4480M", "8128M", "23040M"))
 $dropdownChunkSize.SelectedIndex = 0
 
 $buttonCreate = New-Object System.Windows.Forms.Button
